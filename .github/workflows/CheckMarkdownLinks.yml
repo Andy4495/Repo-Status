@@ -18,4 +18,5 @@ jobs:
       with:
         base-branch: main
         use-verbose-mode: yes
+        config-file: 'mlc_config.json'
             
