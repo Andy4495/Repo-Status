@@ -1,0 +1,14 @@
+ConnectedStatusMonitor
+ESP-WiFi-DS18B20-Temp-Sensor
+ExternalWatchdog
+GPS-Breakout-With-LCD
+MSP430LowPowerTempSensor
+MSP430TempSensorWithDisplay
+Outdoor-Weather-Sensor
+PiMac
+retro-calculator
+Sensor-Repeater
+USB_Host_ASCII_Keyboard
+Wireless-DS18B20-Temp-Sensor
+Wireless-Sensor-Receiver-Hub
+Wireless-Signal-Tester

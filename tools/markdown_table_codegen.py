@@ -21,6 +21,7 @@ compile = "[Arduino Compile Sketches]"
 markdown = "[Check Markdown Links]"
 release = "[GitHub release (latest SemVer)]"
 reldate = "[GitHub Release Date]"
+lastcommit = "[GitHub last commit]"
 flat = "?style=flat"
 
 if len(sys.argv) != 2:
@@ -46,11 +47,13 @@ for line in stdin:
     forks + "(" + shields + "forks/" + username + repo + flat + ")](" + github + repo + "/network/members) ", end = '')
     print("| [!" + compile + "(" + github + repo + "/actions/workflows/arduino-compile-sketches.yml/badge.svg)](" + 
     github + repo + "/actions/workflows/arduino-compile-sketches.yml) [!" + markdown + "(" + github + repo +
-    "/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](" + github + repo + "/actions/workflows/CheckMarkdownLinks.yml) |")
+    "/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](" + github + repo + "/actions/workflows/CheckMarkdownLinks.yml) ", end = '')
+    print("| [!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
   if repotype == "other":
     print("| [" + repo +"](" + github + repo + ") ", end = '')
     print("| [!" + stars + "(" + shields + "stars/" + username + repo + flat + ")](" + github + repo + "/stargazers) [!" + 
     forks + "(" + shields + "forks/" + username + repo + flat + ")](" + github + repo + "/network/members) ", end = '')
     print("| [!"  + markdown + "(" + github + repo +
-    "/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](" + github + repo + "/actions/workflows/CheckMarkdownLinks.yml) |")
+    "/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](" + github + repo + "/actions/workflows/CheckMarkdownLinks.yml) ", end = '')
+    print("| [!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
 
