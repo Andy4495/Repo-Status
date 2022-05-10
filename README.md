@@ -52,3 +52,16 @@ A single place to check the status of all my repositories.
 | [Noritake-GU7000](https://github.com/Andy4495/Noritake-GU7000) | [![GitHub Repo stars](https://img.shields.io/github/stars/Andy4495/Noritake-GU7000?style=flat)](https://github.com/Andy4495/Noritake-GU7000/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Andy4495/Noritake-GU7000?style=flat)](https://github.com/Andy4495/Noritake-GU7000/network/members) | [![Check Markdown Links](https://github.com/Andy4495/Noritake-GU7000/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/Noritake-GU7000/actions/workflows/CheckMarkdownLinks.yml) |
 | [Template-Repo](https://github.com/Andy4495/Template-Repo) | [![GitHub Repo stars](https://img.shields.io/github/stars/Andy4495/Template-Repo?style=flat)](https://github.com/Andy4495/Template-Repo/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Andy4495/Template-Repo?style=flat)](https://github.com/Andy4495/Template-Repo/network/members) | [![Check Markdown Links](https://github.com/Andy4495/Template-Repo/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/Template-Repo/actions/workflows/CheckMarkdownLinks.yml) |
 | [Windows10-on-iMac2011](https://github.com/Andy4495/Windows10-on-iMac2011) | [![GitHub Repo stars](https://img.shields.io/github/stars/Andy4495/Windows10-on-iMac2011?style=flat)](https://github.com/Andy4495/Windows10-on-iMac2011/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Andy4495/Windows10-on-iMac2011?style=flat)](https://github.com/Andy4495/Windows10-on-iMac2011/network/members) | [![Check Markdown Links](https://github.com/Andy4495/Windows10-on-iMac2011/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/Windows10-on-iMac2011/actions/workflows/CheckMarkdownLinks.yml) |
+
+## Markdown Table
+
+The Markdown code used in the above table can be tedious and error-prone to write manually, so I created a Python script to generate the code based on the repository name and type. See [`markdown_table_codegen.py`][1] in the `tools` directory for more info.
+
+## License
+
+The software and other files in this repository are released under what is commonly called the [MIT License][100]. See the file [`LICENSE.txt`][101] in this repository.
+
+[1]: ./tools/markdown_table_codegen.py
+[100]: https://choosealicense.com/licenses/mit/
+[101]: ./LICENSE.txt
+[200]: https://github.com/Andy4495/Repo-Status
