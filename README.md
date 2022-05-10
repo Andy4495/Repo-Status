@@ -6,7 +6,7 @@ A single place to check the status of all my repositories.
 
 ## Libraries
 
-| Name | Stars and Forks | Actions | Latest Release |
+|   |   |   |  |
 |-|-|-|-|
 | [AY3891x](https://github.com/Andy4495/AY3891x) | ![GitHub Repo stars](https://img.shields.io/github/stars/Andy4495/AY3891x?style=flat) ![GitHub forks](https://img.shields.io/github/forks/Andy4495/AY3891x?style=flat) | [![Arduino Compile Sketches](https://github.com/Andy4495/AY3891x/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/AY3891x/actions/workflows/arduino-compile-sketches.yml) [![Check Markdown Links](https://github.com/Andy4495/AY3891x/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/AY3891x/actions/workflows/CheckMarkdownLinks.yml) | ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Andy4495/AY3891x) ![GitHub Release Date](https://img.shields.io/github/release-date/Andy4495/AY3891x) |
 |[BoydPrinter](https://github.com/Andy4495/BoydPrinter) | ![GitHub Repo stars](https://img.shields.io/github/stars/Andy4495/BoydPrinter?style=flat) ![GitHub forks](https://img.shields.io/github/forks/Andy4495/BoydPrinter?style=flat) | [![Arduino Compile Sketches](https://github.com/Andy4495/BoydPrinter/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/BoydPrinter/actions/workflows/arduino-compile-sketches.yml) [![Check Markdown Links](https://github.com/Andy4495/BoydPrinter/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/BoydPrinter/actions/workflows/CheckMarkdownLinks.yml) | ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Andy4495/BoydPrinter) ![GitHub Release Date](https://img.shields.io/github/release-date/Andy4495/BoydPrinter) |
@@ -28,7 +28,7 @@ A single place to check the status of all my repositories.
 
 ## Sketches
 
-| Name | Stars and Forks | Actions |
+|  |  |  |
 |-|-|-|
 | [ConnectedStatusMonitor](https://github.com/Andy4495/ConnectedStatusMonitor) | ![GitHub Repo stars](https://img.shields.io/github/stars/Andy4495/ConnectedStatusMonitor?style=flat) ![GitHub forks](https://img.shields.io/github/forks/Andy4495/ConnectedStatusMonitor?style=flat)  | [![Check Markdown Links](https://github.com/Andy4495/ConnectedStatusMonitor/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/ConnectedStatusMonitor/actions/workflows/CheckMarkdownLinks.yml) |
 |[ESP-WiFi-DS18B20-Temp-Sensor](https://github.com/Andy4495/ESP-WiFi-DS18B20-Temp-Sensor) | ![GitHub Repo stars](https://img.shields.io/github/stars/Andy4495/ESP-WiFi-DS18B20-Temp-Sensor?style=flat) ![GitHub forks](https://img.shields.io/github/forks/Andy4495/ESP-WiFi-DS18B20-Temp-Sensor?style=flat) | [![Check Markdown Links](https://github.com/Andy4495/ESP-WiFi-DS18B20-Temp-Sensor/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/ESP-WiFi-DS18B20-Temp-Sensor/actions/workflows/CheckMarkdownLinks.yml) |
@@ -47,7 +47,7 @@ A single place to check the status of all my repositories.
 
 ## Other
 
-| Name | Stars and Forks | Actions |
+|   |   |   |
 |-|-|-|
 |[Noritake-GU7000](https://github.com/Andy4495/Noritake-GU7000) | ![GitHub Repo stars](https://img.shields.io/github/stars/Andy4495/Noritake-GU7000?style=flat) ![GitHub forks](https://img.shields.io/github/forks/Andy4495/Noritake-GU7000?style=flat) | [![Check Markdown Links](https://github.com/Andy4495/Noritake-GU7000/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/Noritake-GU7000/actions/workflows/CheckMarkdownLinks.yml) |
 |[Template-Repo](https://github.com/Andy4495/Template-Repo) | ![GitHub Repo stars](https://img.shields.io/github/stars/Andy4495/Template-Repo?style=flat) ![GitHub forks](https://img.shields.io/github/forks/Andy4495/Template-Repo?style=flat) | [![Check Markdown Links](https://github.com/Andy4495/Template-Repo/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/Template-Repo/actions/workflows/CheckMarkdownLinks.yml) |
