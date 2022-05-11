@@ -23,6 +23,10 @@ release = "[GitHub release (latest SemVer)]"
 reldate = "[GitHub Release Date]"
 lastcommit = "[GitHub last commit]"
 flat = "?style=flat"
+compilesvg = "/actions/workflows/arduino-compile-sketches.yml/badge.svg"
+compileyml = "/actions/workflows/arduino-compile-sketches.yml"
+mdsvg = "/actions/workflows/CheckMarkdownLinks.yml/badge.svg"
+mdyml = "/actions/workflows/CheckMarkdownLinks.yml"
 
 if len(sys.argv) != 2:
   print("Usage: " + sys.argv[0] + " library | sketch | other")
@@ -36,24 +40,21 @@ for line in stdin:
     print("| [" + repo +"](" + github + repo + ") ", end = '')
     print("| [!" + stars + "(" + shields + "stars/" + username + repo + flat + ")](" + github + repo + "/stargazers) [!" + 
     forks + "(" + shields + "forks/" + username + repo + flat + ")](" + github + repo + "/network/members) ", end = '')
-    print("| [!" + compile + "(" + github + repo + "/actions/workflows/arduino-compile-sketches.yml/badge.svg)](" + 
-    github + repo + "/actions/workflows/arduino-compile-sketches.yml) [!" + markdown + "(" + github + repo +
-    "/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](" + github + repo + "/actions/workflows/CheckMarkdownLinks.yml) | ", end = '')
-    print("[!" + release + "(" + shields + "v/release/" + username + repo + ")](" + github + repo + "/releases) [!" + reldate + "(" +
+    print("| [!" + compile + "(" + github + repo + compilesvg + ")](" + github + repo + compileyml + ") [!" + 
+    markdown + "(" + github + repo + mdsvg + ")](" + github + repo + mdyml +  ") ", end = '')
+    print("| [!" + release + "(" + shields + "v/release/" + username + repo + ")](" + github + repo + "/releases) [!" + reldate + "(" +
     shields + "release-date/" + username + repo + ")](" + github + repo + "/releases) |")
   if repotype == "sketch":
     print("| [" + repo +"](" + github + repo + ") ", end = '')
     print("| [!" + stars + "(" + shields + "stars/" + username + repo + flat + ")](" + github + repo + "/stargazers) [!" + 
     forks + "(" + shields + "forks/" + username + repo + flat + ")](" + github + repo + "/network/members) ", end = '')
-    print("| [!" + compile + "(" + github + repo + "/actions/workflows/arduino-compile-sketches.yml/badge.svg)](" + 
-    github + repo + "/actions/workflows/arduino-compile-sketches.yml) [!" + markdown + "(" + github + repo +
-    "/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](" + github + repo + "/actions/workflows/CheckMarkdownLinks.yml) ", end = '')
+    print("| [!" + compile + "(" + github + repo + compilesvg + ")](" + github + repo + compileyml + ") [!" + 
+    markdown + "(" + github + repo + mdsvg + ")](" + github + repo + mdyml + ") ", end = '')
     print("| [!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
   if repotype == "other":
     print("| [" + repo +"](" + github + repo + ") ", end = '')
     print("| [!" + stars + "(" + shields + "stars/" + username + repo + flat + ")](" + github + repo + "/stargazers) [!" + 
     forks + "(" + shields + "forks/" + username + repo + flat + ")](" + github + repo + "/network/members) ", end = '')
-    print("| [!"  + markdown + "(" + github + repo +
-    "/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](" + github + repo + "/actions/workflows/CheckMarkdownLinks.yml) ", end = '')
+    print("| [!"  + markdown + "(" + github + repo + mdsvg +  ")](" + github + repo + mdyml + ") ", end = '')
     print("| [!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
 
