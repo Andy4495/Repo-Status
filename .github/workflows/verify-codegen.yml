@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'testscript.sh'
+      - 'markdown_table_codegen.py'
 jobs:
   verify-codegen:
     runs-on: ubuntu-latest
