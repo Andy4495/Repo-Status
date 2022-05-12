@@ -1,0 +1,14 @@
+sketch-nocompile ConnectedStatusMonitor
+sketch-nocompile ESP-WiFi-DS18B20-Temp-Sensor
+sketch ExternalWatchdog
+sketch-nocompile GPS-Breakout-With-LCD
+sketch MSP430LowPowerTempSensor
+sketch MSP430TempSensorWithDisplay
+sketch Outdoor-Weather-Sensor
+sketch PiMac
+sketch retro-calculator
+sketch Sensor-Repeater
+sketch USB_Host_ASCII_Keyboard
+sketch Wireless-DS18B20-Temp-Sensor
+sketch-nocompile Wireless-Sensor-Receiver-Hub
+sketch Wireless-Signal-Tester

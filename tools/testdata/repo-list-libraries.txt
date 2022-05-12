@@ -1,0 +1,17 @@
+library AY3891x
+library BoydPrinter
+library BQ27441_SWI2C
+library EEPROM_24C08_SWI2C
+library FutabaVFD162S
+library HapTouch
+library HCMS39xx
+library ICM7218
+library-nocompile Kentec_35_Parallel
+library LED744511
+library matrix-keypad-library
+library MspTandV
+library NewhavenOLED
+library ParallelEEPROM
+library SWI2C
+library TLC591x
+library Weather_Sensors_SWI2C

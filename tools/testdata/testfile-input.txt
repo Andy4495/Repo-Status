@@ -1,0 +1,5 @@
+library test1
+library-nocompile test2
+sketch test3
+sketch-nocompile test4
+other test5
