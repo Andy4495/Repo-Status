@@ -2,7 +2,8 @@ name: Verify codegen script
 
 on: 
   push:
-
+    paths:
+      - 'testscript.sh'
 jobs:
   verify-codegen:
     runs-on: ubuntu-latest
