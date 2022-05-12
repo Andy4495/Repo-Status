@@ -2,9 +2,7 @@ name: Verify codegen script
 
 on: 
   push:
-    paths: 
-      - 'markdown_table_codegen.py'
-      - 'verify-codegen.yml'
+
 jobs:
   verify-codegen:
     steps:
