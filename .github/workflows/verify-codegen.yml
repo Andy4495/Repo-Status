@@ -5,6 +5,7 @@ on:
 
 jobs:
   verify-codegen:
+    runs-on: ubuntu-latest
     steps:
       - name: Verify markdown_table_codegen.py script
         run: ./tools/testscript.sh
