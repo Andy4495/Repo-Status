@@ -2,6 +2,7 @@ name: Verify codegen script
 
 on: 
   push:
+  workflow_dispatch:
 
 jobs:
   verify-codegen:

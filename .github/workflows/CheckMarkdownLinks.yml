@@ -8,6 +8,7 @@ on:
     # Modify the cron time to a somewhat random day/time to avoid having all your repos running at the same time
     # Run 4th day of every month at 4:41 AM (See https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07)
     - cron: "37 4 4 * *"
+  workflow_dispatch:
 
 jobs:
   markdown-link-check:
