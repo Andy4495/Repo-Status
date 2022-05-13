@@ -5,9 +5,16 @@
 # Script to auto-generate top-level README.md file
 # Run this script from the top-level repository directory
 
-FILENAME=./README.md
+if [ $1 ]
+then
+  FILENAME=$1
+else 
+  FILENAME=./README.md
+fi
 
-cat ./docs/README-header.md >$FILENAME
+echo "Using output filename: $FILENAME"
+
+cat ./docs/README-header.txt >$FILENAME
 
 cat <<EOF >>$FILENAME
 
@@ -41,4 +48,4 @@ python3 ./tools/markdown_table_codegen.py <./docs/repo-list-other.txt >>$FILENAM
 
 echo >>$FILENAME
 
-cat ./docs/README-footer.md >>$FILENAME
+cat ./docs/README-footer.txt >>$FILENAME
