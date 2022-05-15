@@ -10,13 +10,16 @@ diff $1 $2
 
 result=$?
 
-if [ result -ne 0]
+if [ $result -ne 0 ]
 then
+  echo "Pushing updated file $2"
   git config --global user.email "Andy4495@users.noreply.github.com"
   git config --global user.name "Andreas Taylor"
   git add $2
   git commit -m "Update $2 by generate-readme.yml action"
-  git push origin master
+  git push origin main
+else
+  echo "File did not change."
 fi
 
 

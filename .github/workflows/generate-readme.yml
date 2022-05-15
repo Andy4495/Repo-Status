@@ -1,0 +1,25 @@
+name: Generate README
+
+on: 
+  push:
+    paths: 
+      - 'docs/**'
+      - 'README.md'
+      - '!/docs/README.md'
+  workflow_dispatch:
+
+jobs:
+  generate-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - name: Generate README file
+        run: |
+          cp ./README.md ./README.md.sav
+          chmod +x ./tools/generate-README.sh
+          ./tools/generate-README.sh
+          cat ./README.md
+          echo "diff result: `diff ./README.md.sav ./README.md`"
+          chmod +x ./tools/action-checkin.sh
+          ./tools/action-checkin.sh ./README.md.sav ./README.md
+        shell: bash
