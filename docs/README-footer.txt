@@ -1,8 +1,8 @@
 ## Markdown Code
 
-This README.md file is automatically generated from files in the [`docs`] directory. Any time a source file is changed in that directory, a GitHub action workflow ([`Generate README`][4]) is triggered which generates and checks in the updated version of this file into the repository.
+This README.md file is automatically generated from files in the [`docs`][7] directory. Any time a source file is changed in that directory, the [`Generate README`][4] workflow is triggered. The workflow generates the new README and automatically pushes the updated version to the repository.
 
-Manually changing this file will trigger the `Generate README` workflow, overwriting any manual changes and reverting the text back to whatever is defined in the `docs` directory files.
+Manually changing this file directly will trigger the [`Generate README`][4] workflow, overwriting any manual changes and reverting the text back to whatever is defined by the `docs` directory files.
 
 ## Tools
 
@@ -18,6 +18,7 @@ The software and other files in this repository are released under what is commo
 [4]: https://github.com/Andy4495/Repo-Status/actions/workflows/generate-readme.yml
 [5]: ./tools
 [6]: ./tools/README.md
+[7]: ./docs
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE.txt
 [200]: https://github.com/Andy4495/Repo-Status
