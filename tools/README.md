@@ -39,5 +39,5 @@ The software and other files in this repository are released under what is commo
 [6]: https://github.com/Andy4495/Repo-Status/blob/main/docs/README-header.txt
 [7]: https://github.com/Andy4495/Repo-Status/blob/main/docs/README-footer.txt
 [100]: https://choosealicense.com/licenses/mit/
-[101]: ./LICENSE.txt
+[101]: ../LICENSE.txt
 [200]: https://github.com/Andy4495/Repo-Status
