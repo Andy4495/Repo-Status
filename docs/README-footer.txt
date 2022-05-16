@@ -19,6 +19,12 @@ The software and other files in this repository are released under what is commo
 [5]: ./tools
 [6]: ./tools/README.md
 [7]: ./docs
+[8]: https://github.github.com/gfm/#tables-extension-
+[9]: https://docs.github.com/en/actions
+[10]: https://github.com/Andy4495/Repo-Status/actions/workflows/CheckMarkdownLinks.yml
+[11]: https://github.com/Andy4495/Repo-Status/actions/workflows/verify-codegen.yml
+[12]: https://github.com/Andy4495/Repo-Status/actions/workflows/generate-readme.yml
+[13]: https://github.com/badges/shields
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE.txt
 [200]: https://github.com/Andy4495/Repo-Status
