@@ -12,7 +12,7 @@ This repository uses various tools to automate the creation of the README file a
 - Generates the top-level [README.md][5] file
 - Uses the [`README-header.txt`][6] file to start the file, calls `markdown_table_codegen.py` to generate the Markdown code for the tables, and then uses the [`README-footer.txt`][7] file to complete the README.md file
 - Used by the [`Generate README`][3] workflow
-- Can also be called manually at the command line
+- Can also be called manually at the command line. The first parameter is the output filename. If now output filename is specified, then the file `./README.md` is written.
 
 `markdown_table_codegen.py`
 
