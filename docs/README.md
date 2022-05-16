@@ -4,9 +4,9 @@ The top-level repository [README.md][1] file is auto-generated based on files in
 
 The repo status tables are generated from the files [`repo-list-libraries.txt`][2], [`repo-list-sketches.txt`][3], and [`repo-list-other.txt`][4].
 
-The rest of the README is copied from [`README-header.txt`][5] (for text before the status tables) and [`README-footer.txt`][6] (for text after the status tables) as-is.
+The rest of the README is copied as-is from [`README-header.txt`][5] (for text before the status tables) and [`README-footer.txt`][6] (for text after the status tables).
 
-Therefore, in order to edit the top-level README.md file, edit the files in this `docs` directory, and GitHub Actions will auto-generate a new README.md file using the [`generate-README.sh`][7] script.
+Therefore, in order to edit the top-level README.md file, edit the files in this `docs` directory, and the [`Generate README`][8] workflow will auto-generate and checkin a new README.md file using the [`generate-README.sh`][7] script.
 
 ## License
 
@@ -19,6 +19,7 @@ The software and other files in this repository are released under what is commo
 [5]: ./README-header.txt
 [6]: ./README-footer.txt
 [7]: ../tools/generate-README.sh
+[8]: https://github.com/Andy4495/Repo-Status/actions/workflows/generate-readme.yml
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ../LICENSE.txt
 [200]: https://github.com/Andy4495/Repo-Status
