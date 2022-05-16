@@ -18,8 +18,10 @@ then
   git add $2
   git commit -m "Update $2 by generate-readme.yml action"
   git push origin main
+  echo "$2 changed -> pushed new version to repo. " >> $GITHUB_STEP_SUMMARY
 else
   echo "File did not change."
+  echo "$2 unchanged. Repo not updated." >> $GITHUB_STEP_SUMMARY
 fi
 
 
