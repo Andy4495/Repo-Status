@@ -1,6 +1,6 @@
 # About This Directory
 
-The top-level repository [README.md][1] file is auto-generated based on files in the `docs` directory.
+The top-level repository [README.md][1] file is auto-generated based on files in the [`docs`][9] directory.
 
 The repo status tables are generated from the files [`repo-list-libraries.txt`][2], [`repo-list-sketches.txt`][3], and [`repo-list-other.txt`][4].
 
@@ -20,6 +20,7 @@ The software and other files in this repository are released under what is commo
 [6]: ./README-footer.txt
 [7]: ../tools/generate-README.sh
 [8]: https://github.com/Andy4495/Repo-Status/actions/workflows/generate-readme.yml
+[9]: ../docs
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ../LICENSE.txt
 [200]: https://github.com/Andy4495/Repo-Status
