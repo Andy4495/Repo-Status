@@ -5,6 +5,19 @@
 
 A single place to check the status of all my repositories.
 
+This repo also demonstrates various GitHub features, including:
+
+- [GitHub actions][9]
+  - Several workflows are defined:
+    - Validate links in the README files ([`Check Markdown Links`][10])
+    - Validate a script ([`Verify codegen script`][11])
+    - Auto-generate and push a file to the repo ([`Generate README`][12])
+- [GitHub-flavored Markdown][8]
+  - Used to display the repo status tables
+- [Badges/Shields][13]
+  - GitHub-defined shields for workflow status
+  - Shields.io-defined shields for other status
+
 ## Libraries
 
 |   |   |   |  |
@@ -76,6 +89,12 @@ The software and other files in this repository are released under what is commo
 [5]: ./tools
 [6]: ./tools/README.md
 [7]: ./docs
+[8]: https://github.github.com/gfm/#tables-extension-
+[9]: https://docs.github.com/en/actions
+[10]: https://github.com/Andy4495/Repo-Status/actions/workflows/CheckMarkdownLinks.yml
+[11]: https://github.com/Andy4495/Repo-Status/actions/workflows/verify-codegen.yml
+[12]: https://github.com/Andy4495/Repo-Status/actions/workflows/generate-readme.yml
+[13]: https://github.com/badges/shields
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE.txt
 [200]: https://github.com/Andy4495/Repo-Status
