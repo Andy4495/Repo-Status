@@ -16,13 +16,13 @@ then
   git config --global user.email "Andy4495@users.noreply.github.com"
   git config --global user.name "Andreas Taylor"
   git add $2
-  git commit -m "Update $2 by $GITHUB_WORKFLOW workflow run #$GITHUB_RUN_ID"
+  git commit -m "Update $2 by '$GITHUB_WORKFLOW' workflow run #$GITHUB_RUN_NUMBER"
   git push origin main
   echo "$2 changed -> pushed new version to $GITHUB_REPOSITORY. " >> $GITHUB_STEP_SUMMARY
 else
   echo "File did not change."
   echo "$2 unchanged. $GITHUB_REPOSITORY not updated." >> $GITHUB_STEP_SUMMARY
-  echo "$GITHUB_WORKFLOW workflow run #$GITHUB_RUN_ID, attempt $GITHUB_RUN_ATTEMPT" >> $GITHUB_STEP_SUMMARY
+  echo "'$GITHUB_WORKFLOW' workflow run #$GITHUB_RUN_NUMBER, attempt $GITHUB_RUN_ATTEMPT" >> $GITHUB_STEP_SUMMARY
 fi
 
 
