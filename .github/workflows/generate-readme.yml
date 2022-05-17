@@ -5,6 +5,7 @@ on:
     paths: 
       - 'docs/**'
       - 'README.md'
+      - 'tools/generate-README.sh'
       - '!docs/README.md'
       - '!tools/README.md'
   workflow_dispatch:
