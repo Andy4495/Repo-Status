@@ -47,14 +47,16 @@ for line in stdin:
     print("| [!" + compile + "(" + github + repo + compilesvg + ")](" + github + repo + compileyml + ") [!" + 
     markdown + "(" + github + repo + mdsvg + ")](" + github + repo + mdyml +  ") ", end = '')
     print("| [!" + release + "(" + shields + "v/release/" + username + repo + ")](" + github + repo + "/releases) [!" + reldate + "(" +
-    shields + "release-date/" + username + repo + ")](" + github + repo + "/releases) |")
+    shields + "release-date/" + username + repo + ")](" + github + repo + "/releases) ", end = '')
+    print("[!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
   if repotype == 'library-nocompile':
     print("| [" + repo +"](" + github + repo + ") ", end = '')
     print("| [!" + stars + "(" + shields + "stars/" + username + repo + flat + ")](" + github + repo + "/stargazers) [!" + 
     forks + "(" + shields + "forks/" + username + repo + flat + ")](" + github + repo + "/network/members) ", end = '')
     print("| [!" + markdown + "(" + github + repo + mdsvg + ")](" + github + repo + mdyml +  ") ", end = '')
     print("| [!" + release + "(" + shields + "v/release/" + username + repo + ")](" + github + repo + "/releases) [!" + reldate + "(" +
-    shields + "release-date/" + username + repo + ")](" + github + repo + "/releases) |")
+    shields + "release-date/" + username + repo + ")](" + github + repo + "/releases) ", end = '')
+    print("[!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
   if repotype == "sketch":
     print("| [" + repo +"](" + github + repo + ") ", end = '')
     print("| [!" + stars + "(" + shields + "stars/" + username + repo + flat + ")](" + github + repo + "/stargazers) [!" + 
