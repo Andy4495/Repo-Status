@@ -10,5 +10,5 @@ sketch retro-calculator
 sketch Sensor-Repeater
 sketch USB_Host_ASCII_Keyboard
 sketch Wireless-DS18B20-Temp-Sensor
-sketch-nocompile Wireless-Sensor-Receiver-Hub
+sketch Wireless-Sensor-Receiver-Hub
 sketch Wireless-Signal-Tester
