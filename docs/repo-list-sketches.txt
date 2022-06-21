@@ -1,5 +1,5 @@
 sketch ConnectedStatusMonitor
-sketch-nocompile ESP-WiFi-DS18B20-Temp-Sensor
+sketch ESP-WiFi-DS18B20-Temp-Sensor
 sketch ExternalWatchdog
 sketch-nocompile GPS-Breakout-With-LCD
 sketch MSP430LowPowerTempSensor
