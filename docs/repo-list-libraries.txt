@@ -6,7 +6,7 @@ library FutabaVFD162S
 library HapTouch
 library HCMS39xx
 library ICM7218
-library-nocompile Kentec_35_Parallel
+library Kentec_35_Parallel
 library LED744511
 library matrix-keypad-library
 library MspTandV
