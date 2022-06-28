@@ -2,4 +2,9 @@ library test1
 library-nocompile test2
 sketch test3
 sketch-nocompile test4
-other test5
+copy test5
+copy-no-actions test6
+fork test7
+clone test8
+archive test9
+other test10

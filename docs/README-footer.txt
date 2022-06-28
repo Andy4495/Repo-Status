@@ -1,3 +1,8 @@
+[**Archive**][19] - Read-only repo with no further updates planned.  
+[**Clone**][18] - Full copy of a repo, but not linked to the original repo.  
+**Copy** - Similar to a clone, but only a portion of the original repo is copied. For example, a specific tag or folder.  
+[**Fork**][18] - Full copy of a repo which remains linked to the original, upstream repo.  
+
 ## Markdown Code
 
 [Markdown][17] is intended to be easy-to-read and easy-to-write. Per its creators:
@@ -55,6 +60,8 @@ The software and other files in this repository are released under what is commo
 [15]: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#adding-a-job-summary
 [16]: https://github.blog/2022-05-09-supercharging-github-actions-with-job-summaries/
 [17]: https://daringfireball.net/projects/markdown/
+[18]: https://github.community/t/the-difference-between-forking-and-cloning-a-repository/10189
+[19]: https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE.txt
 [200]: https://github.com/Andy4495/Repo-Status

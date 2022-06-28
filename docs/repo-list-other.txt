@@ -1,5 +1,8 @@
-other Noritake-GU7000
-other Repo-Status
-other Template-Repo
-other TI_Platform_Cores_For_Arduino
-other Windows10-on-iMac2011
+copy-no-actions Adafruit_MQTT_Library-1.3.0
+copy Energia-RSLK-Library
+clone gigatron-rom
+copy LCD_SharpBoosterPack_SPI
+archive MSP-EXP430G2ET-Energia
+copy OneMsTaskTimer
+fork SparkFun_Micro_OLED_Arduino_Library
+fork WIZ_Ethernet_Library

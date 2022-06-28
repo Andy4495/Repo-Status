@@ -44,6 +44,15 @@ python3 ./tools/markdown_table_codegen.py <./docs/repo-list-sketches.txt >>$FILE
 
 cat <<EOF >>$FILENAME
 
+## Informational
+
+|  |  |  |  |
+|-|-|-|-|
+EOF
+
+python3 ./tools/markdown_table_codegen.py <./docs/repo-list-informational.txt >>$FILENAME
+cat <<EOF >>$FILENAME
+
 ## Other
 
 |  |  |  |  |

@@ -3,8 +3,11 @@
 # Usage: 
 #   python3 markdown_table_codegen.py
 #
-#   Reads from stdin, two parameters per line: repo-type and repo-name
-#     repo-type is one of: library | library-nocompile | sketch | sketch-nocompile | other
+#   Reads from stdin, two parameters per line: <repo-type> and repo-name
+#     <repo-type> is one of: 
+#       library | library-nocompile | sketch | sketch-nocompile | informational | <other>
+#     <other> is one of: 
+#       copy | copy-no-actions | fork | clone | archive
 # 
 # This script automates the creation of the Markdown text needed to create a table entry
 # for a repo. There are three types of repos represented in the status table: libraries, 
@@ -69,6 +72,32 @@ for line in stdin:
     print("| [!" + stars + "(" + shields + "stars/" + username + repo + flat + ")](" + github + repo + "/stargazers) [!" + 
     forks + "(" + shields + "forks/" + username + repo + flat + ")](" + github + repo + "/network/members) ", end = '')
     print("| [!" + markdown + "(" + github + repo + mdsvg + ")](" + github + repo + mdyml + ") ", end = '')
+    print("| [!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
+  if repotype == "copy":
+    print("| [" + repo +"](" + github + repo + ") ", end = '')
+    print("| Copy " , end = '')
+    print("| [!" + compile + "(" + github + repo + compilesvg + ")](" + github + repo + compileyml + ") [!" + 
+    markdown + "(" + github + repo + mdsvg + ")](" + github + repo + mdyml + ") ", end = '')
+    print("| [!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
+  if repotype == "copy-no-actions":
+    print("| [" + repo +"](" + github + repo + ") ", end = '')
+    print("| Copy " , end = '')
+    print("| *No Actions* ", end = '')
+    print("| [!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
+  if repotype == "fork":
+    print("| [" + repo +"](" + github + repo + ") ", end = '')
+    print("| Fork " , end = '')
+    print("| *No Actions* ", end = '')
+    print("| [!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
+  if repotype == "clone":
+    print("| [" + repo +"](" + github + repo + ") ", end = '')
+    print("| Clone " , end = '')
+    print("| *No Actions* ", end = '')
+    print("| [!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
+  if repotype == "archive":
+    print("| [" + repo +"](" + github + repo + ") ", end = '')
+    print("| Archive " , end = '')
+    print("| *No Actions* ", end = '')
     print("| [!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
   if repotype == "other":
     print("| [" + repo +"](" + github + repo + ") ", end = '')
