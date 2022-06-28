@@ -1,7 +1,7 @@
 [**Archive**][19] - Read-only repo with no further updates planned.  
 [**Clone**][18] - Full copy of a repo, but not linked to the original repo.  
 **Copy** - Similar to a clone, but only a portion of the original repo is copied. For example, a specific tag or folder.  
-[**Fork**][18] - Full copy of a repo which remains linked to the original, upstream repo.  
+[**Fork**][18] - Full copy of a repo which is linked to the original, upstream repo.  
 
 ## Markdown Code
 
@@ -13,7 +13,7 @@ As a text file, this Markdown-based `README.md` file is neither easy-to-read nor
 
 With that in mind, the `README.md` file is automatically generated from files in the [`docs`][7] directory. Any time a source file is changed in that directory, the [`Generate README`][4] workflow is triggered. The workflow generates the new README and automatically pushes the updated version to the repository.
 
-Manually changing this file directly will trigger the [`Generate README`][4] workflow, overwriting any manual changes and reverting the text back to whatever is defined by the `docs` directory files.
+Manually changing this `README.md` file directly will trigger the [`Generate README`][4] workflow, overwriting any manual changes and reverting the text back to whatever is defined by the `docs` directory files.
 
 ## Tools
 

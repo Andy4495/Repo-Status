@@ -1,5 +1,4 @@
 copy-no-actions Adafruit_MQTT_Library-1.3.0
-copy Energia-RSLK-Library
 clone gigatron-rom
 copy LCD_SharpBoosterPack_SPI
 archive MSP-EXP430G2ET-Energia
