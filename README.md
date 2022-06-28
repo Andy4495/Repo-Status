@@ -65,7 +65,6 @@ A single place to check the status of all my repositories.
 |  |  |  |  |
 |-|-|-|-|
 | [Adafruit_MQTT_Library-1.3.0](https://github.com/Andy4495/Adafruit_MQTT_Library-1.3.0) | Copy | *No Actions* | [![GitHub last commit](https://img.shields.io/github/last-commit/Andy4495/Adafruit_MQTT_Library-1.3.0)](https://github.com/Andy4495/Adafruit_MQTT_Library-1.3.0/commits) |
-| [Energia-RSLK-Library](https://github.com/Andy4495/Energia-RSLK-Library) | Copy | [![Arduino Compile Sketches](https://github.com/Andy4495/Energia-RSLK-Library/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/Energia-RSLK-Library/actions/workflows/arduino-compile-sketches.yml) [![Check Markdown Links](https://github.com/Andy4495/Energia-RSLK-Library/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/Energia-RSLK-Library/actions/workflows/CheckMarkdownLinks.yml) | [![GitHub last commit](https://img.shields.io/github/last-commit/Andy4495/Energia-RSLK-Library)](https://github.com/Andy4495/Energia-RSLK-Library/commits) |
 | [gigatron-rom](https://github.com/Andy4495/gigatron-rom) | Clone | *No Actions* | [![GitHub last commit](https://img.shields.io/github/last-commit/Andy4495/gigatron-rom)](https://github.com/Andy4495/gigatron-rom/commits) |
 | [LCD_SharpBoosterPack_SPI](https://github.com/Andy4495/LCD_SharpBoosterPack_SPI) | Copy | [![Arduino Compile Sketches](https://github.com/Andy4495/LCD_SharpBoosterPack_SPI/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/LCD_SharpBoosterPack_SPI/actions/workflows/arduino-compile-sketches.yml) [![Check Markdown Links](https://github.com/Andy4495/LCD_SharpBoosterPack_SPI/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/LCD_SharpBoosterPack_SPI/actions/workflows/CheckMarkdownLinks.yml) | [![GitHub last commit](https://img.shields.io/github/last-commit/Andy4495/LCD_SharpBoosterPack_SPI)](https://github.com/Andy4495/LCD_SharpBoosterPack_SPI/commits) |
 | [MSP-EXP430G2ET-Energia](https://github.com/Andy4495/MSP-EXP430G2ET-Energia) | Archive | *No Actions* | [![GitHub last commit](https://img.shields.io/github/last-commit/Andy4495/MSP-EXP430G2ET-Energia)](https://github.com/Andy4495/MSP-EXP430G2ET-Energia/commits) |
@@ -76,7 +75,7 @@ A single place to check the status of all my repositories.
 [**Archive**][19] - Read-only repo with no further updates planned.  
 [**Clone**][18] - Full copy of a repo, but not linked to the original repo.  
 **Copy** - Similar to a clone, but only a portion of the original repo is copied. For example, a specific tag or folder.  
-[**Fork**][18] - Full copy of a repo which remains linked to the original, upstream repo.  
+[**Fork**][18] - Full copy of a repo which is linked to the original, upstream repo.  
 
 ## Markdown Code
 
@@ -88,7 +87,7 @@ As a text file, this Markdown-based `README.md` file is neither easy-to-read nor
 
 With that in mind, the `README.md` file is automatically generated from files in the [`docs`][7] directory. Any time a source file is changed in that directory, the [`Generate README`][4] workflow is triggered. The workflow generates the new README and automatically pushes the updated version to the repository.
 
-Manually changing this file directly will trigger the [`Generate README`][4] workflow, overwriting any manual changes and reverting the text back to whatever is defined by the `docs` directory files.
+Manually changing this `README.md` file directly will trigger the [`Generate README`][4] workflow, overwriting any manual changes and reverting the text back to whatever is defined by the `docs` directory files.
 
 ## Tools
 
