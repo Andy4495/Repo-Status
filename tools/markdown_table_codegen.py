@@ -99,7 +99,7 @@ for line in stdin:
     print("| Archive " , end = '')
     print("| *No Actions* ", end = '')
     print("| [!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
-  if repotype == "other":
+  if repotype == "informational":
     print("| [" + repo +"](" + github + repo + ") ", end = '')
     print("| [!" + stars + "(" + shields + "stars/" + username + repo + flat + ")](" + github + repo + "/stargazers) [!" + 
     forks + "(" + shields + "forks/" + username + repo + flat + ")](" + github + repo + "/network/members) ", end = '')

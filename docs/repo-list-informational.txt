@@ -1,5 +1,5 @@
-other Noritake-GU7000
-other Repo-Status
-other Template-Repo
-other TI_Platform_Cores_For_Arduino
-other Windows10-on-iMac2011
+informational Noritake-GU7000
+informational Repo-Status
+informational Template-Repo
+informational TI_Platform_Cores_For_Arduino
+informational Windows10-on-iMac2011

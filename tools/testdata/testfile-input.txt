@@ -7,4 +7,4 @@ copy-no-actions test6
 fork test7
 clone test8
 archive test9
-other test10
+informational test10
