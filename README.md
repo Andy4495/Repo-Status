@@ -76,17 +76,17 @@ A single place to check the status of all my repositories.
 **Copy** - Similar to a clone, but only a portion of the original repo is copied. For example, a specific tag or folder.  
 [**Fork**][18] - Full copy of a repo which is linked to the original, upstream repo.  
 
-## Markdown Code
+## Markdown Code Auto-Generated
 
 [Markdown][17] is intended to be easy-to-read and easy-to-write. Per its creators:
 
 > The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions.
 
-As a text file, this Markdown-based `README.md` file is neither easy-to-read nor easy-to-write, and should not be considered a good example of using Markdown. In particular, the syntax for the tables and the complex syntax to render the badges with links to the associated GitHub page is cumbersome to read and write.
+As a [text file][20], this Markdown-based [`README.md`][21] file is neither easy-to-read nor easy-to-write, and should not be considered a good example of using Markdown. In particular, the syntax for the tables and the badges is cumbersome to read and write.
 
-With that in mind, the `README.md` file is automatically generated from files in the [`docs`][7] directory. Any time a source file is changed in that directory, the [`Generate README`][4] workflow is triggered. The workflow generates the new README and automatically pushes the updated version to the repository.
+With that in mind, **this [`README.md`][21] file is automatically generated from files in the [`docs`][7] directory**. Any time a source file is changed in that directory, the [`Generate README`][4] workflow is triggered. The workflow generates a new top-level README and automatically pushes the updated version to the repository.
 
-Manually changing this `README.md` file directly will trigger the [`Generate README`][4] workflow, overwriting any manual changes and reverting the text back to whatever is defined by the `docs` directory files.
+Manually changing this [`README.md`][21] file directly will trigger the [`Generate README`][4] workflow, overwriting any manual changes and reverting the text back to whatever is defined by the `docs` directory files.
 
 ## Tools
 
@@ -135,6 +135,8 @@ The software and other files in this repository are released under what is commo
 [17]: https://daringfireball.net/projects/markdown/
 [18]: https://github.community/t/the-difference-between-forking-and-cloning-a-repository/10189
 [19]: https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories
+[20]: https://raw.githubusercontent.com/Andy4495/Repo-Status/main/README.md
+[21]: ./README.md
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE.txt
 [200]: https://github.com/Andy4495/Repo-Status
