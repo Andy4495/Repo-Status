@@ -43,9 +43,6 @@ This repo also demonstrates various GitHub features, including:
 
 The software and other files in this repository are released under what is commonly called the [MIT License][100]. See the file [`LICENSE.txt`][101] in this repository.
 
-[1]: ./tools/markdown_table_codegen.py
-[2]: ./tools/testscript.sh
-[3]: ./docs
 [4]: https://github.com/Andy4495/Repo-Status/actions/workflows/generate-readme.yml
 [5]: ./tools
 [6]: ./tools/README.md
@@ -66,4 +63,4 @@ The software and other files in this repository are released under what is commo
 [21]: ./README.md
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE.txt
-[200]: https://github.com/Andy4495/Repo-Status
+[//]: # ([200]: https://github.com/Andy4495/Repo-Status)
