@@ -3,6 +3,7 @@ sketch ESP-WiFi-DS18B20-Temp-Sensor
 sketch ExternalWatchdog
 sketch GPS-Breakout-With-LCD
 sketch MSP430LowPowerTempSensor
+sketch MSP430TempSensorLCD
 sketch MSP430TempSensorWithDisplay
 sketch Outdoor-Weather-Sensor
 sketch PiMac
