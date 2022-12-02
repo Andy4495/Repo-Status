@@ -10,9 +10,7 @@
 #       copy | copy-no-actions | fork | clone | archive
 # 
 # This script automates the creation of the Markdown text needed to create a table entry
-# for a repo. There are three types of repos represented in the status table: libraries, 
-# sketches and other. This script takes exactly one command line argument indicating the
-# type of repo, reads stdin for repo names, and outputs the generated Markdown text to stdout.
+# for a repo.
 #
 
 from sys import stdin
