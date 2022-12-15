@@ -108,7 +108,8 @@ for line in stdin:
     print("| [!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
   if repotype == "program":
     print("| [" + repo +"](" + github + repo + ") ", end = '')
-    print("| Program " , end = '')
+    print("| [!" + stars + "(" + shields + "stars/" + username + repo + flat + ")](" + github + repo + "/stargazers) [!" + 
+    forks + "(" + shields + "forks/" + username + repo + flat + ")](" + github + repo + "/network/members) ", end = '')
     print("| [!" + build + "(" + github + repo + buildsvg + ")](" + github + repo + buildyml + ") [!" + 
     markdown + "(" + github + repo + mdsvg + ")](" + github + repo + mdyml + ") ", end = '')
     print("| [!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
