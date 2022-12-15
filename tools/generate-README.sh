@@ -34,7 +34,7 @@ python3 ./tools/markdown_table_codegen.py <./docs/repo-list-libraries.txt >>$FIL
 
 cat <<EOF >>$FILENAME
 
-## Sketches
+## Sketches/Programs
 
 |  |  |  |  |
 |-|-|-|-|

@@ -1,4 +1,5 @@
 sketch ConnectedStatusMonitor
+program emulator-8-bit
 sketch ESP-WiFi-DS18B20-Temp-Sensor
 sketch ExternalWatchdog
 sketch GPS-Breakout-With-LCD
