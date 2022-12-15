@@ -1,7 +1,8 @@
-[**Archive**][19] - Read-only repo with no further updates planned.  
-[**Clone**][18] - Full copy of a repo, but not linked to the original repo.  
-**Copy** - Similar to a clone, but only a portion of the original repo is copied. For example, a specific tag or folder.  
-[**Fork**][18] - Full copy of a repo which is linked to the original, upstream repo.  
+[**Archive**][19] - Read-only repo with no further updates planned  
+[**Clone**][18] - Full copy of a repo, but not linked to the original repo  
+**Copy** - Similar to a clone, but only a portion of the original repo is copied. For example, a specific tag or folder  
+[**Fork**][18] - Full copy of a repo which is linked to the original, upstream repo  
+**Program** - Linux/Unix executable
 
 ## Markdown Code Auto-Generated
 

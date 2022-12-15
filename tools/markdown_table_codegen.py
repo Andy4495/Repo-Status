@@ -23,6 +23,7 @@ stars = "[GitHub Repo stars]"
 forks = "[GitHub forks]"
 compile = "[Arduino Compile Sketches]"
 markdown = "[Check Markdown Links]"
+build = "[Build]"
 release = "[GitHub release (latest SemVer)]"
 reldate = "[GitHub Release Date]"
 lastcommit = "[GitHub last commit]"
@@ -31,6 +32,8 @@ compilesvg = "/actions/workflows/arduino-compile-sketches.yml/badge.svg"
 compileyml = "/actions/workflows/arduino-compile-sketches.yml"
 mdsvg = "/actions/workflows/CheckMarkdownLinks.yml/badge.svg"
 mdyml = "/actions/workflows/CheckMarkdownLinks.yml"
+buildsvg = "/actions/workflows/Build.yml/badge.svg"
+buildyml = "/actions/workflows/Build.yml"
 
 if len(sys.argv) != 1:
   print("Usage: " + sys.argv[0])
@@ -102,5 +105,11 @@ for line in stdin:
     print("| [!" + stars + "(" + shields + "stars/" + username + repo + flat + ")](" + github + repo + "/stargazers) [!" + 
     forks + "(" + shields + "forks/" + username + repo + flat + ")](" + github + repo + "/network/members) ", end = '')
     print("| [!"  + markdown + "(" + github + repo + mdsvg +  ")](" + github + repo + mdyml + ") ", end = '')
+    print("| [!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
+  if repotype == "program":
+    print("| [" + repo +"](" + github + repo + ") ", end = '')
+    print("| Program " , end = '')
+    print("| [!" + build + "(" + github + repo + buildsvg + ")](" + github + repo + buildyml + ") [!" + 
+    markdown + "(" + github + repo + mdsvg + ")](" + github + repo + mdyml + ") ", end = '')
     print("| [!" + lastcommit + "(" + shields + "last-commit/" + username + repo + ")](" + github + repo + "/commits) |")
 
