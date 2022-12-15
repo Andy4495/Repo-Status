@@ -67,16 +67,18 @@ A single place to check the status of all my repositories.
 |  |  |  |  |
 |-|-|-|-|
 | [Adafruit_MQTT_Library-1.3.0](https://github.com/Andy4495/Adafruit_MQTT_Library-1.3.0) | Copy | *No Actions* | [![GitHub last commit](https://img.shields.io/github/last-commit/Andy4495/Adafruit_MQTT_Library-1.3.0)](https://github.com/Andy4495/Adafruit_MQTT_Library-1.3.0/commits) |
+| [emulator-8-bit](https://github.com/Andy4495/emulator-8-bit) | Program | [![Build](https://github.com/Andy4495/emulator-8-bit/actions/workflows/Build.yml/badge.svg)](https://github.com/Andy4495/emulator-8-bit/actions/workflows/Build.yml) [![Check Markdown Links](https://github.com/Andy4495/emulator-8-bit/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/emulator-8-bit/actions/workflows/CheckMarkdownLinks.yml) | [![GitHub last commit](https://img.shields.io/github/last-commit/Andy4495/emulator-8-bit)](https://github.com/Andy4495/emulator-8-bit/commits) |
 | [LCD_SharpBoosterPack_SPI](https://github.com/Andy4495/LCD_SharpBoosterPack_SPI) | Copy | [![Arduino Compile Sketches](https://github.com/Andy4495/LCD_SharpBoosterPack_SPI/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/LCD_SharpBoosterPack_SPI/actions/workflows/arduino-compile-sketches.yml) [![Check Markdown Links](https://github.com/Andy4495/LCD_SharpBoosterPack_SPI/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/LCD_SharpBoosterPack_SPI/actions/workflows/CheckMarkdownLinks.yml) | [![GitHub last commit](https://img.shields.io/github/last-commit/Andy4495/LCD_SharpBoosterPack_SPI)](https://github.com/Andy4495/LCD_SharpBoosterPack_SPI/commits) |
 | [MSP-EXP430G2ET-Energia](https://github.com/Andy4495/MSP-EXP430G2ET-Energia) | Archive | *No Actions* | [![GitHub last commit](https://img.shields.io/github/last-commit/Andy4495/MSP-EXP430G2ET-Energia)](https://github.com/Andy4495/MSP-EXP430G2ET-Energia/commits) |
 | [OneMsTaskTimer](https://github.com/Andy4495/OneMsTaskTimer) | Copy | [![Arduino Compile Sketches](https://github.com/Andy4495/OneMsTaskTimer/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/OneMsTaskTimer/actions/workflows/arduino-compile-sketches.yml) [![Check Markdown Links](https://github.com/Andy4495/OneMsTaskTimer/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/OneMsTaskTimer/actions/workflows/CheckMarkdownLinks.yml) | [![GitHub last commit](https://img.shields.io/github/last-commit/Andy4495/OneMsTaskTimer)](https://github.com/Andy4495/OneMsTaskTimer/commits) |
 | [SparkFun_Micro_OLED_Arduino_Library](https://github.com/Andy4495/SparkFun_Micro_OLED_Arduino_Library) | Fork | *No Actions* | [![GitHub last commit](https://img.shields.io/github/last-commit/Andy4495/SparkFun_Micro_OLED_Arduino_Library)](https://github.com/Andy4495/SparkFun_Micro_OLED_Arduino_Library/commits) |
 | [WIZ_Ethernet_Library](https://github.com/Andy4495/WIZ_Ethernet_Library) | Fork | *No Actions* | [![GitHub last commit](https://img.shields.io/github/last-commit/Andy4495/WIZ_Ethernet_Library)](https://github.com/Andy4495/WIZ_Ethernet_Library/commits) |
 
-[**Archive**][19] - Read-only repo with no further updates planned.  
-[**Clone**][18] - Full copy of a repo, but not linked to the original repo.  
-**Copy** - Similar to a clone, but only a portion of the original repo is copied. For example, a specific tag or folder.  
-[**Fork**][18] - Full copy of a repo which is linked to the original, upstream repo.  
+[**Archive**][19] - Read-only repo with no further updates planned  
+[**Clone**][18] - Full copy of a repo, but not linked to the original repo  
+**Copy** - Similar to a clone, but only a portion of the original repo is copied. For example, a specific tag or folder  
+[**Fork**][18] - Full copy of a repo which is linked to the original, upstream repo  
+**Program** - Linux/Unix executable
 
 ## Markdown Code Auto-Generated
 
