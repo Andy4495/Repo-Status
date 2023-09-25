@@ -13,6 +13,6 @@ library MspTandV
 library NewhavenOLED
 library ParallelEEPROM
 library SWI2C
-library TIL306x
+library TIL306
 library TLC591x
 library Weather_Sensors_SWI2C
