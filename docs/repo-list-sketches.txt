@@ -10,6 +10,7 @@ sketch Outdoor-Weather-Sensor
 sketch PiMac
 sketch retro-calculator
 sketch Sensor-Repeater
+sketch solar_data_logger
 sketch TI-30-Keypad-Interface
 sketch TI-RSLK-Example-Sketches
 sketch USB_Host_ASCII_Keyboard
