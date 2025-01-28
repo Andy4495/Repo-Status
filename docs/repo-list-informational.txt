@@ -4,4 +4,3 @@ informational Noritake-GU7000
 informational Repo-Status
 informational Template-Repo
 informational TI_Platform_Cores_For_Arduino
-informational Windows10-on-iMac2011
