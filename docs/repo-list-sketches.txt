@@ -9,6 +9,7 @@ sketch MSP430TempSensorWithDisplay
 sketch Outdoor-Weather-Sensor
 sketch PiMac
 sketch retro-calculator
+program skat-scoresheet
 sketch Sensor-Repeater
 sketch solar_data_logger
 sketch TI-30-Keypad-Interface
