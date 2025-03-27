@@ -21,7 +21,7 @@ jobs:
           chmod +x ./tools/generate-README.sh
           ./tools/generate-README.sh
           cat ./README.md
-          echo "diff result: `diff ./README.md.sav ./README.md`"
+          echo "diff result: $(diff ./README.md.sav ./README.md)"
           chmod +x ./tools/action-checkin.sh
           ./tools/action-checkin.sh ./README.md.sav ./README.md
         shell: bash
