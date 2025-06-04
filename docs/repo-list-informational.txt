@@ -4,3 +4,4 @@ informational Noritake-GU7000
 informational Repo-Status
 informational Template-Repo
 informational TI_Platform_Cores_For_Arduino
+informational timex-sinclair-1000
